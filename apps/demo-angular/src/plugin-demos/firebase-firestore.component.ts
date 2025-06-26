@@ -1,5 +1,4 @@
-import { Component, inject, NgZone } from '@angular/core';
-import { DemoSharedFirebaseFirestore } from '@demo/shared';
+import { Component, inject } from '@angular/core';
 import { FieldPath, FieldValue, Firestore, GeoPoint, Timestamp } from '@nativescript/firebase-firestore';
 
 @Component({
